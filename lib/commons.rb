@@ -1,4 +1,5 @@
 require 'commons/configuration'
+require 'commons/client'
 
 module Commons
  extend Configuration
