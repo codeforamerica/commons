@@ -14,7 +14,7 @@ module Commons
     end
 
     include Commons::Connection
-    include Commmons::Request
+    include Commons::Request
 
 
   end
