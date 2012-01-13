@@ -1,6 +1,7 @@
 require 'commons/connection'
 require 'commons/request'
 
+require 'commons/client/content'
 
 module Commons
   class Client
@@ -16,6 +17,7 @@ module Commons
     include Commons::Connection
     include Commons::Request
 
+    include Commons::Client::Content
 
   end
 end
