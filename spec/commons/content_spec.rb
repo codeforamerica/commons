@@ -14,7 +14,7 @@ describe Commons::Client::Content do
 
       it "should return search the correct content node" do
         node = @client.content('13813')
-        node.num_records.should == "25"
+        node.title.should == "YouTown"
       end
     end
 
