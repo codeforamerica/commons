@@ -10,8 +10,6 @@ A Ruby Wrapper for the Civic Commons Marketplace API
 ## <a name="documentation"></a>Documentation
 [http://rdoc.info/gems/commons](http://rdoc.info/gems/commons)
 
-## <a name="ci"></a>Continuous Integration
-[![Build Status](https://secure.travis-ci.org/codeforamerica/commons.png)](http://travis-ci.org/codeforamerica/commons)
 
 ## <a name="examples"><a/>Usage Examples
     require 'commons'
