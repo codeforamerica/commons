@@ -14,14 +14,14 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'webmock'
   gem.add_development_dependency 'yard'
   gem.author      = "Code for America"
-  gem.description = %q{TODO: Write a gem description}
-  gem.email       = 'info@codeforamerica.org'
+  gem.description = %q{Ruby Wrapper for the Civic Commons MarketPlace API - http://marketplace.civiccommons.org/api}
+  gem.email       = 'ryan@codeforamerica.org'
   gem.executables = `git ls-files -- bin/*`.split("\n").map{|f| File.basename(f)}
   gem.files       = `git ls-files`.split("\n")
-  gem.homepage    = ''
+  gem.homepage    = 'https://github.com/codeforamerica/commons'
   gem.name        = 'commons'
   gem.require_paths = ['lib']
-  gem.summary     = %q{TODO: Write a gem summary}
+  gem.summary     = gem.description
   gem.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.version     = Commons::VERSION
 end
