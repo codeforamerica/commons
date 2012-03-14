@@ -16,7 +16,7 @@ module Commons
     DEFAULT_ADAPTER = :net_http
 
     # The endpoint that will be used to connect if none is set
-    DEFAULT_ENDPOINT = 'http://marketplace.civiccommons.org/api/v1'.freeze
+    DEFAULT_ENDPOINT = 'http://civiccommons.org/api/v1'.freeze
 
     # The response format appended to the path and sent in the 'Accept' header if none is set
     #

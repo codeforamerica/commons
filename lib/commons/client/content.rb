@@ -6,7 +6,7 @@ module Commons
       # @param id [String] The id for the product number
       # @param options [Hash] A customizable set of options.
       # @return [Array<Hashie::Mash>]
-      # @see http://marketplace.civiccommons.org/api
+      # @see http://www.civiccommons.org/api
       # @example
       #   Comments.content("13351")
       def content(id,options={})

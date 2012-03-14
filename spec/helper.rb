@@ -21,5 +21,5 @@ def fixture(file)
 end
 
 def commons_url(url)
-  "http://marketplace.civiccommons.org/api/v1#{url}"
+  "http://civiccommons.org/api/v1#{url}"
 end
