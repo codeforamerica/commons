@@ -17,6 +17,17 @@ describe Commons::Client::Content do
         node.title.should == "YouTown"
       end
     end
+  end
 
+  describe "#taxonomy_term" do
+    before do
+      stub_get("/taxonomy_term/91.json").
+        to_return(:status => 200, :body => fixture("taxonomy_term.json"))
+    end
+
+    it "should return the correct taxonomy term" do
+      result = @client.taxonomy_term('91')
+      result.name.should == "BSD"
+    end
   end
 end
