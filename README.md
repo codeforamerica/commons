@@ -86,10 +86,8 @@ implementation, you will be personally responsible for providing patches in a
 timely fashion. If critical issues for a particular implementation exist at the
 time of a major release, support for that Ruby version may be dropped.
 
-
 ## Credits
 Civic Commons Marketplace API - [API](http://marketplace.civiccommons.org/api)
-
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2012 Code for America. See [LICENSE][] for details.
@@ -99,4 +97,3 @@ Copyright (c) 2012 Code for America. See [LICENSE][] for details.
 [![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/commons.png)][tracker]
 
 [tracker]: http://stats.codeforamerica.org/projects/commons
-
